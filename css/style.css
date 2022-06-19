@@ -1,0 +1,611 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a i:hover{
+    transform: translate(10px,0);
+    transition: 2s;
+}
+ul{
+list-style: none;
+}
+
+
+.logo{
+color: rgb(1, 41, 112);
+}
+.container{
+ display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+nav ul li a{
+     color: rgb(1, 41, 112)     ;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgb(75, 109, 171);
+}
+.btn{
+    border:1px solid rgb(1, 41, 112);
+    padding: 10px 20px;
+    background-color: rgb(1, 41, 112);
+}
+.btn a{
+text-decoration: none;
+color: #fff;
+}
+/* End Header */
+.left{
+margin: 100px 140px;
+}
+.left h1{
+    color: rgb(1, 41, 112);
+     margin:30px 0 ;
+     font-size: 48px;
+}
+.left h2{
+    color: lightgrey;
+    font-weight:lighter;
+    margin:30px 0 ;
+    font-size: 26px;
+}
+.left a {
+    border:1px solid rgb(1, 41, 112);
+    padding: 10px 20px;
+    background-color: rgb(1, 41, 112);
+    text-decoration: none;
+    color: #fff;
+    margin:30px 0 ;
+}
+.bottom_section_handler{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right img{
+    width:75%;
+    height: auto;
+}
+.icon{
+    font-size: 30px;
+    color: lightgrey;     
+}
+.icon_1{
+font-size:12px;
+color: lightgray;
+}
+.footer_link_one h4{ 
+    color: rgb(1, 41, 112);
+}
+.footer_link_one ul li a{
+    color:rgb(75, 109, 171);
+    margin:40px 0;
+}
+.footer_link_two h4{ 
+    color: rgb(1, 41, 112);
+
+}
+.footer_link_two ul li a{
+    color:rgb(75, 109, 171)
+}
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:80px 0 ;
+    clear: both;
+}
+.copyright{
+background-color:#f6f9ff;
+width: 100%;
+height: 100px;
+text-align: center;
+}
+.copyright p{
+    padding: 30px 0;
+}
+.copyright span{
+    color:rgb(1, 41, 112);
+}
+.copyright a{
+    color: rgb(1, 41, 112);
+}
+
+
+
+/* ABOUT PAGE */
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_left{
+    border :1px solid #f6f9ff;
+    background-color: #f6f9ff;
+    margin: 200px 0 ;
+    height:300px;
+    width: 40%;
+    
+}
+.about_left h3{
+    color:rgb(65, 84, 241);
+    margin: 20px 0;
+    
+}
+.about_left h2{
+color: rgb(1, 41, 112);
+margin: 20px 0;
+    
+}
+.about_left p{
+color: lightgray;
+margin: 20px 0;
+    
+}
+.about_left a{
+        border:1px solid rgb(1, 41, 112);
+        padding: 10px 30px;
+        background-color: rgb(1, 41, 112);
+        color: #fff;
+        border-radius: 5px;
+}
+.about_right img{
+    width: 600px;
+    height: 500px;
+    margin-left: -400px;
+    
+}
+
+.value_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin-top: 40px;
+}
+.value_heading p{
+    font-size: 30px;
+    color: rgb(1, 41, 112);
+    text-align: center;
+    font-weight: bold;
+
+    }
+.value_Card_1{
+border: 2px solid lightgray;
+width: 30%;
+height: 450px;
+padding:40px 80px;
+}
+.value_Card_1 img{
+    width: 100%;
+    height: 300px;
+}
+.value_Card_1 h3{
+    color: rgb(1, 41, 112);
+    font-weight: bold;
+    text-align: center;
+}
+.value_Card_1 p{
+    color:lightgray;
+    text-align: center;
+
+}
+/* service page */
+
+.heading{
+    margin:80px 0px;
+}
+.heading p{
+    font-size: 30px;
+    color: rgb(1, 41, 112);
+    text-align: center;
+    font-weight: bold;
+
+}
+.heading h1{
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+.service_card_1{
+    border: 2px solid lightgray;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-color: rgb(45, 182, 250) ;
+    border-bottom-width: 5px;
+}
+.service_card_2{
+    border: 2px solid lightgray;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-color: orange ;
+    border-bottom-width: 5px;
+}
+.service_card_3{
+    border: 2px solid lightgray;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-color: green ;
+    border-bottom-width: 5px;
+}
+.service_card_4{
+    border: 2px solid lightgray;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-color: purple ;
+    border-bottom-width: 5px;
+}
+.service_card_5{
+    border: 2px solid lightgray;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-color: rgb(245, 31, 156) ;
+    border-bottom-width: 5px;
+}
+.service_card_6{
+    border: 2px solid lightgray;
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    border-bottom-color: rgb(233, 34, 44) ;
+    border-bottom-width: 5px;
+}
+
+/* 
+.card_1:hover{
+    background-color: rgb(45, 182, 250);
+}
+.card_2:hover{
+    background-color:orange;
+}
+.card_3:hover{
+    background-color:green;
+}
+.card_4:hover{
+    background-color:purple;
+}
+.card_5:hover{
+    background-color:rgb(245, 31, 156);
+}
+.card_6:hover{
+    background-color:rgb(233, 34, 44);
+    color: #fff;
+} */
+
+/* .icon_service:hover{
+    color:white;
+}
+
+.icon_service_1:hover{
+    color:white;
+}
+.icon_service_2:hover{
+    color:white;
+}
+.icon_service_3:hover{
+    color:white;
+}
+.icon_service_4:hover{
+    color:white;
+}
+.icon_service_5:hover{
+    color:white;
+} */
+.icon_service{
+ padding: 80px 180px;
+ font-size: 80px;
+ color: rgb(45, 182, 250);
+}
+.icon_service_1{
+    padding: 80px 180px;
+    font-size: 80px;
+    color:orange;
+   }
+   .icon_service_2{
+    padding: 80px 180px;
+    font-size: 80px;
+    color:green;
+   }
+   .icon_service_3{
+    padding: 80px 180px;
+    font-size: 80px;
+    color:purple;
+   }
+   .icon_service_4{
+    padding: 80px 180px;
+    font-size: 80px;
+    color:rgb(245, 31, 156);
+   }
+   .icon_service_5{
+    padding: 80px 180px;
+    font-size: 80px;
+    color:rgb(233, 34, 44);
+   }
+.service_card_1 h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+.service_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    margin-top: 20px;
+   
+}
+.service_card_1 p{
+    color: lightgray;
+    text-align: center;
+}
+.service_card_1 a{
+    color:white;
+    text-align: center;
+    margin-left: 130px;
+}
+.service_card_1 a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.service_card_2 h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+
+
+.service_card_2 p{
+    color: lightgray;
+    text-align: center;
+}
+.service_card_2 a{
+    color:white;
+    text-align: center;
+    margin-left: 130px;
+}
+.service_card_2 a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.service_card_3 h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+
+
+.service_card_3 p{
+    color: lightgray;
+    text-align: center;
+}
+.service_card_3 a{
+    color:white;
+    text-align: center;
+    margin-left: 130px;
+}
+.service_card_3 a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.service_card_4 h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+
+
+.service_card_4 p{
+    color: lightgray;
+    text-align: center;
+}
+.service_card_4 a{
+    color:white;
+    text-align: center;
+    margin-left: 130px;
+}
+.service_card_4 a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.service_card_5 h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+
+
+.service_card_5 p{
+    color: lightgray;
+    text-align: center;
+}
+.service_card_5 a{
+    color:white;
+    text-align: center;
+    margin-left: 130px;
+}
+.service_card_5 a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.service_card_6 h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(1, 41, 112);
+}
+
+
+.service_card_6 p{
+    color: lightgray;
+    text-align: center;
+}
+.service_card_6 a{
+    color:white;
+    text-align: center;
+    margin-left: 130px;
+}
+.service_card_6 a{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+   /* contact page */
+
+   .contact_heading{
+       text-align: center;
+       font-size: 30px;
+       font-weight: 500;
+   }
+   .contact{
+       width: 90%;
+    margin: 50px auto;  
+   }
+   .card{
+float:left;
+width: 20%;
+background-color: #f6f9ff;
+margin: 2% 7%;
+width: 20%;    
+}
+   .card i{
+       font-size: 30px;
+       color:rgb(1, 41, 112);
+       padding:15px 20px;    
+       
+   }
+   .card h3{
+       color: rgb(65, 84, 241);
+    font-size: 25px;
+    padding:15px 20px;    
+}
+    .card p{
+        color:lightgray;
+  font-size: 15px;
+  padding: 15px 20px;    
+    }
+    .form{
+        padding: 20px 20px;
+    
+    }
+    input{
+        padding: 10px 20px;
+        margin:1% 0 ;
+        border-radius: 2px;
+        border-color: lightgray;
+        outline: none;     
+    }
+    textarea{
+        margin-top:20px ;
+    }
+    .contact_btn a{
+        border: 1px dolid rgb(65, 84, 241);
+        background-color: rgb(65, 84, 241);
+        color: #fff;
+        padding: 15px 30px;
+        margin: 0 115px;
+        border-radius: 5px;
+       
+        outline: none;
+    }
+
+/* teampage */
+.team_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team_overlap {
+    width: 350px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin: 40px 0px;
+    
+}
+
+.team_overlap img {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.team_card {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 41, 112,0.8);
+    top: 100%;
+    left: 0;
+    position: absolute;
+    transition: all 3s;
+}
+
+.team_overlap:hover .team_card {
+    top: 0;
+}
+.team_card h1{
+    color: #Fff;
+    text-align: center;
+    padding-top: 100px;
+}
+.team_card h3{
+    color:lightgray;
+    text-align: center;
+    padding-top: 5px;
+}
+.team_card p{
+    color:lightgray;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.team_card a {
+    border: 1px solid #fff;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+.team_heading h1{
+color:rgb(1, 41, 112);
+text-align: center;
+font-size:30px;
+}
+
+
+.client_heading h1{
+    color:rgb(1, 41, 112);
+    text-align: center;
+    font-size:30px;    
+}
+.company{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.company_name img{
+    width: 150px;
+}
+
